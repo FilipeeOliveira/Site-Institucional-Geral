@@ -1,0 +1,291 @@
+@media only screen and (max-width: 297px) {
+    .service-item .icon {
+        float: none;
+        margin-bottom: 15px;
+        padding-bottom: 60px;
+    }
+
+}
+
+/* Smartphones (até 600px) */
+@media only screen and (max-width: 600px) {
+    .services::before {
+        display: none;
+    }
+
+    .about.services .container .row div {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        margin-top: 0;
+        padding-top: 200px;
+    }
+
+    .project-details .portfolio-details-slider img {
+        width: 100%;
+    }
+
+    .project-details .swiper-button-prev,
+    .project-details .swiper-button-next {
+        display: none;
+    }
+
+    #test {
+        padding-top: 150px;
+    }
+
+    #bannerId {
+        padding-top: 150px;
+    }
+
+    #servicesTest {
+        padding-top: 70px;
+    }
+
+    #featureTest {
+        padding-top: 70px;
+    }
+
+    #faqTest {
+        padding-top: 90px;
+    }
+
+    #contactTest {
+        padding-top: 70px;
+    }
+
+}
+
+/* Tablets pequenos e smartphones mais largos (600px até 991px) */
+@media only screen and (min-width: 600px) {
+    .service-item {
+        min-height: 520px;
+        padding: 20px;
+    }
+
+    .about .video-box {
+        min-height: 500px;
+        border-radius: 20px;
+    }
+
+    footer {
+        margin-top: 0;
+        padding-top: 160px;
+        text-align: center;
+    }
+
+
+    #test {
+        padding-top: 150px;
+    }
+
+    #servicesTest {
+        padding-top: 70px;
+    }
+
+    #featureTest {
+        padding-top: 70px;
+    }
+
+    #faqTest {
+        padding-top: 90px;
+    }
+
+    #contactTest {
+        padding-top: 70px;
+    }
+
+    .project-details .portfolio-details-slider img {
+        width: 100%;
+    }
+
+    .project-details .swiper-button-prev,
+    .project-details .swiper-button-next {
+        display: none;
+    }
+}
+
+/* Dispositivos médios (tablets no modo paisagem - a partir de 768px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    footer {
+        margin-top: 0;
+        padding-top: 160px;
+        text-align: center;
+    }
+
+    .footer-widget ul {
+        display: block;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+    #test {
+        padding-top: 150px;
+    }
+
+    #servicesTest {
+        padding-top: 70px;
+    }
+
+    #featureTest {
+        padding-top: 70px;
+    }
+
+    #faqTest {
+        padding-top: 90px;
+    }
+
+    #contactTest {
+        padding-top: 70px;
+    }
+
+    .project-details .portfolio-details-slider img {
+        width: 100%;
+    }
+}
+
+/* Dispositivos grandes (laptops/desktops - a partir de 992px) */
+@media only screen and (min-width: 992px) {
+
+    .about::after,
+    .about::before {
+        display: none;
+    }
+
+    .main-banner .right-image img {
+        border-radius: 60px;
+        width: 100vw;
+        max-width: 390px;
+        /* valor específico para range 992px a 1200px */
+        max-height: 300px;
+        margin-left: 10vh;
+        margin-top: 5vh;
+    }
+
+    .about .video-box {
+        position: relative;
+        margin-top: 50px;
+        background-size: cover;
+        width: 480px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .about .play-btn {
+        width: 94px;
+        height: 94px;
+        background: radial-gradient(#4b8ef1 50%, rgba(46, 103, 179, 0.4) 52%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    #test {
+        padding-top: 70px;
+    }
+
+    #servicesTest {
+        padding-top: 70px;
+    }
+
+    #featureTest {
+        padding-top: 70px;
+    }
+
+    #faqTest {
+        padding-top: 90px;
+    }
+
+    #contactTest {
+        padding-top: 70px;
+    }
+
+    .project-details .portfolio-details-slider img {
+        width: 80%;
+    }
+
+    .project-details .swiper-button-prev,
+    .project-details .swiper-button-next {
+        display: block;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .footer-widget ul {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Telas extra largas (laptops, desktops e TVs - a partir de 1200px) */
+@media only screen and (min-width: 1200px) {
+    .main-banner .right-image img {
+        min-width: 500px;
+        margin-left: 100px;
+        max-width: 500px;
+    }
+
+    .about .video-box {
+        min-height: 500px;
+        border-radius: 20px;
+    }
+
+    .service-item {
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    #test {}
+
+    #faqTest {
+        padding-top: 100px;
+    }
+
+    #contactTest {
+        padding-top: 100px;
+    }
+
+    .project-details .portfolio-details-slider img {
+        width: 60%;
+    }
+
+    .project-details .swiper-button-prev,
+    .project-details .swiper-button-next {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    footer {
+        padding-top: 230px;
+    }
+
+    .footer-widget ul {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Monitores ultrawide (a partir de 3440px) */
+@media screen and (min-width: 3440px) {
+    /* Adicionar regras específicas para monitores ultrawide se necessário */
+}

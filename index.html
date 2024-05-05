@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./assets/images/test.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <title>Geral - Conservação e Limpeza</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/clients-slider.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="./vendor/boxicons/boxicons.min.css">
+  <link rel="stylesheet" href="./vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./vendor/glightbox/css/glightbox.min.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" -wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/geral(logo).png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">Sobre</a></li>
+              <li class="scroll-to-section"><a href="#services">Serviços</a></li>
+              <li class="scroll-to-section"><a href="#faq">FAQ</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contato</a></li>
+              <li>
+                <!--  <div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Entre
+                    em contato</a>
+                </div> -->
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+      <!-- Social Login -->
+      <div class="social_login">
+        <div class="">
+          <a href="#" class="social_box fb">
+            <span class="icon"><i class="fab fa-facebook"></i></span>
+            <span class="icon_title">Connect with Facebook</span>
+
+          </a>
+
+          <a href="#" class="social_box google">
+            <span class="icon"><i class="fab fa-google-plus"></i></span>
+            <span class="icon_title">Connect with Google</span>
+          </a>
+        </div>
+
+        <div class="centeredText">
+          <span>Or use your Email address</span>
+        </div>
+
+        <div class="action_btns">
+          <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+          <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+        </div>
+      </div>
+
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+        <form>
+          <label>Email / Username</label>
+          <input type="text" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Remember me on this computer</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+            </div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+          </div>
+        </form>
+
+        <a href="#" class="forgot_password">Forgot password?</a>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+        <form>
+          <label>Full Name</label>
+          <input type="text" />
+          <br />
+
+          <label>Email Address</label>
+          <input type="email" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox" />
+            <label for="send_updates">Send me occasional email updates</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+            </div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <div id="bannerId" class="main-banner wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" id="top">
+    <div class="container mb-xl-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="owl-carousel owl-banner">
+                <div class="item header-text">
+                  <h6>Bem vindo a <span>Geral Conservação & Limpeza.</span></h6>
+                  <h2>Soluções completas para <em>Você</em> e sua <span>Empresa</span>!</h2>
+                  <p>Nossa equipe de confiança oferece atendimento personalizado em uma ampla gama de serviços para
+                    atender todas as suas necessidades.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#contact">Entre em Contato.</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about services show-up wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+    <div id="test" class="container mt-xl-5 mb-5">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-xl-6 col-lg-6 video-box" data-aos="zoom-in">
+          <a href="https://youtu.be/lX_joDqymv4" class="glightbox play-btn mb-4">
+          </a>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-4">
+          <div class="box-heading" data-aos="fade-up">
+            <h4>Sobre nós</h4>
+            <h3>Conhece um pouco sobre a Geral.</h3>
+            <p>Fundada há quatro anos na região Norte do Brasil, nossa empresa é especializada em solucionar problemas
+              em diversas áreas prediais e de terceirização. Inicialmente focada no Distrito Industrial de Manaus,
+              expandimos nossa atuação para atender comércios, condomínios, órgãos governamentais e clientes individuais
+              na região Norte. Comprometidos com a excelência, investimos em tecnologia e parcerias para garantir
+              serviços de alta qualidade e satisfazer as necessidades de nossos clientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-xl-4 col-lg-4">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class='bx bx-wink-smile'></i></div>
+            <h4 class="title"><a href="">Profissionais Treinados</a></h4>
+            <p class="description text-justify">Na nossa empresa, a qualidade e capacitação dos funcionários são
+              prioritárias. Acreditamos no poder da reciclagem contínua, garantindo que nossos serviços de conservação,
+              organização, higienização e produtividade excedam expectativas. Estamos dedicados à excelência em cada
+              serviço que prestamos.</p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class='bx bx-star'></i></div>
+            <h4 class="title"><a href="">Visão</a></h4>
+            <p class="description">Comprometidos com a inovação e o desenvolvimento sustentável, promovemos uma relação
+              harmoniosa com a comunidade e o meio ambiente. Este compromisso é a base de nosso trabalho, visando
+              impactar positivamente nossos clientes e o mundo, estabelecendo altos padrões de qualidade e integridade.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="icon-box" data-aos="fade-up">
+            <div class="icon"><i class='bx bx-badge-check'></i></div>
+            <h4 class="title"><a href="">Missão</a></h4>
+            <p class="description text-justify">Fornecemos soluções prediais e de terceirização práticas, eficientes e
+              personalizadas para atender às necessidades específicas de cada cliente. Nosso foco está na satisfação e
+              sucesso dos clientes, superando suas expectativas em todos os aspectos e estabelecendo um padrão de
+              excelência constante.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End About Section -->
+
+  <section id="clients" class="clients">
+    <div class="container pt-xl-5 my-5" data-aos="zoom-in">
+      <div class="section-heading text-center mb-2 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+        <h4>Você se concentra em expandir sua empresa,<em> nós cuidamos de tudo</em> !</h4>
+        <p>Conheça algumas empresas parceiras!</p>
+      </div>
+      <div class="clients-slider swiper wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/images/clients/11.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/12.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/13.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/8.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/2.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/3.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/4.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/5.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/6.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/7.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/9.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/10.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/1.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/14.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/15.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/16.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/17.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/18.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/19.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/20.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/21.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/images/clients/22.png" class="img-fluid" alt=""></div>
+        </div>
+        <div class="swiper-pagination" id="swiper-pagination-clients"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services section">
+    <div id="about-us" class="about-us section">
+      <div id="servicesTest" class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="section-heading">
+              <h4>Por que escolher a <em>Geral Limpeza?</em></h4>
+              <img src="assets/images/heading-line-dec.png" alt="">
+              <p id="text-left">
+                Nossa empresa especializa-se em solucionar problemas em áreas prediais e de terceirização. Inicialmente
+                focada no Distrito Industrial de Manaus, expandimos para atender diversos setores na região Norte.
+                Comprometidos com a excelência, investimos em tecnologia e parcerias para garantir serviços de alta
+                qualidade e satisfazer nossos clientes. Atendemos <a rel="nofollow" href="#">indústrias, bancos,
+                  hospitais, clínicas e laboratórios, comércios, shoppings, instituições educacionais, condomínios
+                  residenciais e comerciais.</a> Com plantões de 24 horas para atender e solucionar as necessidades de
+                nossos clientes garantindo a melhor entrega de nossos serviços, acesse <a href="#">nossa página de
+                  contato</a> para obter mais informações.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="right-image" id="imagem-about">
+              <img style="border-radius: 20px;" src="assets/images/geralLimpeza (1).jpg" alt="Imagem">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item first-service py-5 ">
+            <div class="icon"></div>
+            <h4>Serviços Gerais</h4>
+            <p>Oferecemos uma ampla gama de serviços de limpeza, manutenção, jardinagem, zeladoria e administrativos
+              para empresas e residências na região do Amazonas, garantindo excelência e segurança.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item second-service py-5">
+            <div class="icon"></div>
+            <h4>Serviços em Altura</h4>
+            <p>Oferecemos serviços para manutenção em alturas, incluindo limpezas, pinturas, reformas e instalações.
+              Garantindo resultados de qualidade e segurança em todas as nossas intervenções nas alturas.</p>
+            <div class="text-button text-center">
+              <a href="./pageServices/details/altura.html" target="_blank">Veja Mais <i
+                  class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item third-service py-5">
+            <div class="icon"></div>
+            <h4>Limpeza e Manutenção de Ar-condicionado</h4>
+            <p>Oferecemos serviços de refrigeração, instalação, manutenção corretiva e preventiva em vários setores,
+              garantindo manutenção de alta qualidade e limpeza de ar-condicionado.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item fourth-service py-5">
+            <div class="icon"></div>
+            <h4>Sanitização e Controle de Pragas</h4>
+            <p>Oferecemos serviços em sanitização, seguindo protocolos rigorosos para criar ambientes seguros e livres
+              de germes, promovendo saúde, bem-estar e proteção contínua.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item fifth-service py-5">
+            <div class="icon"></div>
+            <h4>Contratos de Manutenção</h4>
+            <p>Oferecemos contratos para empresas, incluindo contratos PMOC para manter o ambiente em conformidade com
+              normas e verificações técnicas regulares por engenheiros.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-12">
+          <div class="service-item sixth-service py-5">
+            <div class="icon"></div>
+            <h4>Limpezas Técnicas Especializadas</h4>
+            <p>Oferecemos serviços de limpezas técnicas, incluindo limpeza pós-obra, de piso, de placas e painéis
+              solares, e higienização de sofás, assegurando limpeza impecável.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12">
+          <div class="service-item seventh-service py-5">
+            <div class="icon"></div>
+            <h4>Limpeza de Caixa d'água</h4>
+            <p>Oferecemos higienização completa de caixas d'água para todos os tipos e tamanhos, garantindo remoção
+              eficaz de sujeira, limo, fungos e bactérias, conforme normas sanitárias.
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12">
+          <div class="service-item eighth-service py-5">
+            <div class="icon"></div>
+            <h4>Limpeza Comercial e Residencial</h4>
+            <p>Oferecemos serviços de limpeza os ambientes comerciais e residenciais, garantindo uma limpeza completa e
+              eficaz. Nosso objetivo é atender às necessidades específicas de cada cliente com excelência.</p>
+            <div class="text-button text-center">
+              <a href="#">Veja Mais <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features section-bg">
+    <div id="featureTest" class="container pt-xl-5 my-5" data-aos="fade-up">
+      <div class="section-heading text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+        <h4>Somos especialistas <em>em...</em></h4>
+        <img src="assets/images/heading-line-dec.png" alt="">
+        <p>Confira abaixo uma seleção dos nossos serviços destacados. E lembre-se, há muito mais disponível para atender
+          às suas necessidades específicas.</p>
+      </div>
+      <ul class="nav nav-tabs row  g-2 d-flex wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+
+        <li class="nav-item col-12 col-md-3 col-lg-3">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <h4>Manutenção de Equipamentos</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-12 col-md-3 col-lg-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <h4>Limpeza de caixa d'agua</h4>
+          </a><!-- End tab nav item -->
+
+        <li class="nav-item col-12 col-md-3 col-lg-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <h4>Limpeza Residencial</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-12 col-md-3 col-lg-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <h4>Serviços de Pintura</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+      </ul>
+
+      <div class="tab-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+              data-aos="fade-up" data-aos-delay="100">
+              <h3>Manutenção de Ativos</h3>
+              <p class="fst-italic">
+                Contamos com uma equipe altamente capacitada em manutenção de equipamentos, assegurando precisão técnica
+                e estendendo a vida útil dos seus ativos.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> A manutenção regular dos equipamentos ajuda a garantir sua
+                  confiabilidade operacional, reduzindo as chances de falhas inesperadas e tempo de inatividade não
+                  planejado.</li>
+                <li><i class="bi bi-check2-all"></i> Equipamentos bem mantidos tendem a operar de forma mais eficiente,
+                  consumindo menos energia e recursos para realizar suas funções, o que pode levar a economias
+                  significativas a longo prazo.</li>
+                <li><i class="bi bi-check2-all"></i> Manutenções preventivas e corretivas contribuem para garantir a
+                  segurança no ambiente de trabalho, reduzindo o risco de acidentes causados por falhas mecânicas ou
+                  elétricas nos equipamentos.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/images/features/manutencaoDeEquipmanentos.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Descontaminação de Reservatórios</h3>
+              <p class="fst-italic">
+                Atendemos todas as suas necessidades de cuidado com caixas d'água e reservatórios, de residenciais a
+                industriais, elevados e subterrâneos. Garantimos a qualidade da água para promover saúde e bem-estar.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> A limpeza da caixa d'água assegura uma fonte confiável de água
+                  potável, protegendo a saúde dos usuários.</li>
+                <li><i class="bi bi-check2-all"></i> Eliminação de contaminantes reduz o risco de doenças transmitidas
+                  pela água, promovendo o bem-estar.</li>
+                <li><i class="bi bi-check2-all"></i> Manter a caixa d'água limpa prolonga sua vida útil, evitando danos
+                  e reduzindo custos de manutenção.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/images/features/limpezaCaixaDagua.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Higienização domiciliar</h3>
+              <p class="fst-italic">
+                Uma faxina profissional em residências vai além da simples limpeza. É um serviço minucioso e abrangente
+                que visa transformar o ambiente, deixando-o limpo, organizado e livre de impurezas.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Profissionais qualificados usam técnicas, produtos e cronogramas
+                  precisos para uma limpeza eficaz.</li>
+                <li><i class="bi bi-check2-all"></i> Cada casa é única, então os serviços de limpeza profissional são
+                  adaptados às necessidades individuais de cada cliente, garantindo resultados que superam expectativas
+                  ao focar nas áreas mais importantes.</li>
+                <li><i class="bi bi-check2-all"></i> Disponibilizamos horários flexíveis para atender à conveniência do
+                  cliente, seja para uma única faxina, limpezas semanais ou agendamentos regulares.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/images/features/limpezaResidencial.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-4">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Pintura Profissional</h3>
+              <p class="fst-italic">
+                Transformamos ambientes com nossa pintura profissional. De preparação a acabamento, protegemos e
+                embelezamos superfícies internas e externas, garantindo durabilidade e estilo.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> A pintura revitaliza espaços, adicionando cor e personalidade aos
+                  ambientes, criando uma atmosfera renovada e agradável.</li>
+                <li><i class="bi bi-check2-all"></i> Além de embelezar, a pintura protege superfícies contra desgaste,
+                  danos causados pelo clima e deterioração ao longo do tempo, prolongando a vida útil dos materiais.
+                </li>
+                <li><i class="bi bi-check2-all"></i> Uma pintura bem-feita pode aumentar o valor percebido de uma
+                  propriedade, tornando-a mais atraente para potenciais compradores ou locatários, e contribuindo para
+                  uma melhor impressão geral.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/images/features/PinturaProfissional.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    <div class="container pt-xl-5 my-5 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+          <h3><span>O que nossos clientes </span><br><strong class="text-primary">Dizem?</strong></h3>
+          <p>
+            Descubra por que tantos clientes confiam e recomendam nossos serviços! Aqui você encontrará depoimentos de
+            clientes reais que compartilham suas experiências positivas. Desde a qualidade do nosso trabalho até o
+            profissionalismo da nossa equipe, veja o que faz da nossa empresa a escolha preferida para suas
+            necessidades.
+          </p>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="d-flex">
+                    <img src="assets/images/testimonials/Junior.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Josimar Junior</h3>
+                      <h4>Ceo & Fundador</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Impressionado com a rapidez e a atenção aos detalhes da equipe. Realmente superaram minhas
+                      expectativas e fizeram um trabalho espetacular!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="d-flex">
+                    <img src="assets/images/testimonials/fabio.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Fabio</h3>
+                      <h4>Colaborador</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Esta é a terceira vez que utilizo os serviços da empresa, e continuo sendo surpreendido com o
+                      profissionalismo e a eficácia. Recomendo a todos que buscam qualidade e confiança.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="d-flex">
+                    <img src="assets/images/testimonials/felipe.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Felipe Andrade</h3>
+                      <h4>Cliente</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Desde o atendimento inicial até a execução do serviço, tudo foi perfeito. A equipe é
+                      extremamente educada e profissional. Estou muito satisfeito com o resultado final.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="d-flex">
+                    <img src="assets/images/testimonials/igor.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Igor Oliveira</h3>
+                      <h4>Cliente</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Qualidade excepcional e preço justo. A transparência e o compromisso com a satisfação do
+                      cliente são o que me fazem voltar sempre. Excelente trabalho!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="d-flex">
+                    <img src="assets/images/testimonials/flavio.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Flavio Nascimento</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Muito obrigado pelo serviço impecável. A equipe foi pontual, organizada e muito cuidadosa. Meu
+                      espaço nunca esteve tão limpo e revitalizado.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination" id="swiper-pagination-testimonials"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Faq Section - Home Page -->
+  <section id="faq" class="faq">
+
+    <div id="faqTest" class="container my-5 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-5 " data-aos="fade-up" data-aos-delay="100">
+          <div class="content">
+            <h3><span>Perguntas </span><strong class="text-primary">Frequentes</strong></h3>
+            <p>
+              Aqui, ao lado, você encontrará as principais perguntas dos nossos clientes.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="faq-container">
+            <div class="faq-item faq-active">
+              <h3><span class="num">1.</span> <span>Quanto custa o valor da faxina?
+                </span></h3>
+              <div class="faq-content">
+                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">2.</span> <span>A visita é cobrada?
+                </span></h3>
+              <div class="faq-content">
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                  id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                  elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">3.</span> <span>Vocês emitem certificado?
+                </span>
+              </h3>
+              <div class="faq-content">
+                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                  elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                  eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                  sed odio morbi quis</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">4.</span> <span>Vocês possuem o PMOC?
+                </span>
+              </h3>
+              <div class="faq-content">
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                  id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                  elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">5.</span> <span>Vocês fazem contratos com o condomínio?</span></h3>
+              <div class="faq-content">
+                <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                  Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+                  Purus gravida quis blandit turpis cursus in</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- End Testimonials Section -->
+  <section id="contact" class="contact">
+    <div id="contactTest" class="container my-5">
+      <div class="section-title text-center mb-5">
+        <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+          <h4>Fale com A <em>Gente</em> !</h4>
+          <img src="assets/images/heading-line-dec.png" alt="">
+          <p>Conecte-se conosco em qualquer lugar! Você pode nos contatar por<a rel="nofollow" href="#"> e-mail,
+              WhatsApp ou preenchendo nosso
+              formulário online..</a></p>
+        </div>
+      </div>
+
+      <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+
+        <div class="col-lg-6">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="info-box">
+                <i class="bx bx-share-alt"></i>
+                <h3>Nossas Redes Sociais</h3>
+                <div class="social-links">
+                  <a target="_blank" href="https://www.facebook.com/geral.limp/?locale=pt_BR" class="facebook"><i
+                      class="bi bi-facebook"></i></a>
+                  <a target="_blank" href="https://www.instagram.com/geral.limpeza/" class="instagram"><i
+                      class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-box mt-4">
+                <i class="bx bx-envelope"></i>
+                <h3>Trabalhe conosco
+                </h3>
+                <p style="font-size: 12px;">geral.limpeza@hotmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-box mt-4">
+                <i class="bx bx-envelope"></i>
+                <h3>Email</h3>
+                <p style="font-size: 12px;">geral.limpeza@hotmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <a target="_blank"
+                href="https://wa.me/5592981799878?text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Geral...">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Contato</h3>
+                  <p style="font-size: 12px;">(92) 98179-9878</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <form action="" class="php-email-form contact__form" id="contact-form">
+            <div class="row">
+              <div class="col-md-6 form-group contact__form-div">
+                <label>Name</label>
+                <input type="text" name="user_name" class="form-control" id="contact-name" required
+                  placeholder="Escreva seu nome">
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0 contact__form-div">
+                <label>Email</label>
+                <input type="email" class="form-control" name="user_email" id="contact-email" required
+                  placeholder="Digite seu Email">
+              </div>
+            </div>
+            <div class="form-group mt-3 contact__form-div">
+              <label>Numero</label>
+              <input type="text" class="form-control" name="user_number" id="contact-number" required
+                placeholder="Deixe seu contato">
+            </div>
+            <div class="form-group mt-3 contact__form-div">
+              <label>Mensagem</label>
+              <textarea name="user_message" class="form-control" id="contact-project" rows="6" required
+                placeholder="Escreva sua Mensagem"></textarea>
+            </div>
+
+            <p class="my-3" id="contact-message"></p>
+            <div class="text-center">
+              <button type="submit">Enviar Mensagem</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-5 col-xl-6">
+          <div class="footer-widget">
+            <h4>Contato</h4>
+            <p><a href="https://maps.app.goo.gl/7JYzUkjBpAjis4xy7" target="_blank">R. Barão de São Domingos, 99 - Sala
+                04 altos - Centro, Manaus - AM</a></p>
+            <p><a href="tel: +5592981799878">(92) 98179-9878</a></p>
+            <p><a href="mailto:geral.limpeza@hotmail.com">geral.limpeza@hotmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xl-3">
+          <div class="footer-widget">
+            <h4>Sobre nós</h4>
+            <ul class="">
+              <li><a href="#">Home.</a></li>
+              <li><a href="#">Serviços.</a></li>
+              <li><a href="#">Sobre.</a></li>
+            </ul>
+            <ul>
+              <li><a href="/termos.html" target="_blank">Termos de uso.</a></li>
+              <li><a href="/politica.html" target="_blank">Politica de privacidade.</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xl-3">
+          <div class="footer-widget">
+            <h4>Sua Solução Completa em Serviços
+            </h4>
+            <div class="logo">
+              <img src="assets/images/geral(logo).png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-xl-12">
+          <div class="copyright-text">
+            <p>Copyright © 2024 Geral Conservação & Limpeza. Todos os direitos reservados.
+              <br>Desenvolvido por: <a href="#" target="_blank" title="css templates">Samyr Salem
+                & Filipe Oliveira</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/js/email.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="./assets/js/accordion.js"></script>
+  <script src="./assets/js/clients-slider.js"></script>
+  <script src="./assets/js/testimonial.js"></script>
+
+</body>
+
+</html>
